@@ -11,3 +11,6 @@ main:
     
   - title: "Downloads"
     url: /cv/
+
+    - title: "Tutorials"
+    url: /build/
