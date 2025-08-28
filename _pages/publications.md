@@ -4,13 +4,6 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if author.googlescholar %}
-  
-{% endif %}
-
-{% include base_path %}
-
 ## Peer-Reviewed Articles
 
 - Duan, Y., Kumar, S., Maruf, M., **Kavoo, T. M.**, Rangwala, I., Richter, J. H., Glanville, A. S., King, T., Esit, M., Raczka, B., Raeder, K. (2025). [*Enhancing sub-seasonal soil moisture forecasts through land initialization*](https://doi.org/10.1038/s41612-025-00798-5). **npj Climate and Atmospheric Science, 8**(1), 100. Nature Publishing Group UK.  
@@ -21,8 +14,8 @@ author_profile: true
 
 - **Kavoo, T.**, Kennedy, D., Kumar, S., Wieder, W. R., & Lombardozzi, D. (2025). *Reducing uncertainties in coupled carbon–water cycle predictions: A parameter perturbation ensemble experiment at three NEON tower sites in the southeastern United States*. (in revision)
 
-## Theses / Reports
+## Theses
 
-- **Kavoo, T.** (2023). *Reducing uncertainties in coupled carbon–water cycle predictions in the southeastern United States using perturbed parameter experiments and machine learning approaches*.
+- **Kavoo, T.** (2023). [*Reducing uncertainties in coupled carbon–water cycle predictions in the southeastern United States using perturbed parameter experiments and machine learning approaches*](https://etd.auburn.edu/handle/10415/9033). MSc Thesis, Auburn University.  
 
-- **Kavoo, T. M.** (2019). *Rainfall intensity–duration–frequency analysis and peak-flow estimations for flood risk management within Gountiyena Basin, Niamey, Niger*. **PAUWES**.
+- **Kavoo, T. M.** (2019). [*Rainfall-intensity duration frequency analysis and peak-flow estimations for flood risk management options within Gountiyena Basin in Niamey, Niger*](http://repository.pauwes-cop.net/handle/1/338). MSc Thesis, Pan African University Institute of Water and Energy Sciences (PAUWES). 
