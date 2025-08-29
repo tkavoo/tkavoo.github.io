@@ -10,7 +10,7 @@ A central component of my research is testing how parameter choices influence mo
 
 In addition to process-based modeling, I explore applications of machine learning to environmental systems. This includes using data-driven methods to analyze and predict hydrological and climate variability, such as soil moisture and salinity dynamics. These approaches complement mechanistic models by offering alternative perspectives on system behavior and by highlighting nonlinearities or drivers that may be underrepresented in traditional models.  
 
-My broader motivation is to bridge observations, models, and data-driven approaches to improve our understanding of land–climate interactions and to provide insights that support sustainable water and ecosystem management in a changing climate.  
+My broader motivation is to bridge observations, models, and data-driven approaches to improve our understanding of land–climate interactions and to provide insights that support sustainable water and ecosystem management in a changing environment.  
 
 ---
 ### Methods  
@@ -23,4 +23,6 @@ My broader motivation is to bridge observations, models, and data-driven approac
 
 - **Machine Learning Applications:** I apply methods such as recurrent and residual neural networks to environmental time series, testing their ability to capture hydrological and climate-driven variability. These data-driven approaches complement process models by providing alternative perspectives on system dynamics.
 
-Overall, my research is driven by a desire to deepen our understanding of the Earth's climate system and to develop effective strategies for mitigating and adapting to the impacts of climate change.
+Overall, my research is driven by a desire to deepen our understanding of the Earth's climate system and to develop effective strategies for mitigating and adapting to the impacts of changing environment.
+
+
