@@ -86,16 +86,14 @@ author:
   location         : "Auburn, AL"
   employer         :
   pubmed           : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=PMHZFf8AAAAJ&hl"
   email            : tmk0038@auburn.edu
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Thomas-Kavoo"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
-  foursquare       :
   github           : "tkavoo"
   google_plus      :
   keybase          :
@@ -103,20 +101,9 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : thomas-kavoo
-  orcid            : # "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : t_kavoo
-  vine             :
-  weibo            :
-  xing             :
+  orcid            : "https://orcid.org/0000-0003-0567-1092"
   youtube          :
-  wikipedia        :
-
-
+  
 # Reading Files
 include:
   - .htaccess
