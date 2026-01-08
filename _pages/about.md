@@ -1,18 +1,6 @@
 ---
 permalink: /
 title: "Thomas Kavoo"
-excerpt: "PhD Student | Land–Climate Interactions | Water & Carbon Cycles"
-author_profile: true
-layout: single
-classes: wide
-redirect_from:
-  - /about/
-  - /about.html
----
-
----
-permalink: /
-title: "Thomas Kavoo"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
