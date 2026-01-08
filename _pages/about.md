@@ -26,7 +26,7 @@ I work at the intersection of process-based modeling and data-driven analysis.
 Land surface models provide mechanistic understanding, while observational data and machine learning reveal inconsistencies and emergent behavior that models alone may miss. By combining these approaches, I aim to reduce uncertainty and improve the physical realism of ecosystem simulations.
 
 My research primarily uses:
-- Community Land Model (CLM)
+- Land surface models (e.g. Community Land Model - CLM)
 - NEON observational datasets
 - Machine learning emulators and diagnostics
 - Ensemble-based uncertainty analysis
