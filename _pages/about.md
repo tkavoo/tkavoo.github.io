@@ -1,41 +1,15 @@
 ---
 permalink: /
 title: "Thomas Kavoo"
-excerpt: "About me"
+excerpt: "Earth system scientist studying terrestrial water and carbon cycles."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-## About Me
-I am a PhD student and Graduate Research Assistant in the [Climate-Water-Society Lab](https://wp.auburn.edu/thecwslab/) at Auburn University, a Land–Climate Interaction research group. My work focuses on improving how water, carbon, and energy cycle processes are represented in land surface and Earth system models.
-I am particularly interested in strengthening land–atmosphere interaction modeling by integrating observations, uncertainty analysis, and data-driven diagnostics. My research aims to improve the reliability of ecosystem and climate predictions under environmental change.
 
-## Research Interests
-Current ecosystem and Earth system models often struggle to accurately represent water and carbon processes—especially in forested ecosystems. These limitations undermine our ability to predict ecosystem responses to land-use change, climate variability, and disturbance.
+I am a Ph.D. candidate in Earth System Science and a Graduate Research Assistant at Auburn University. My research brings together land-surface modeling, observations, and data science to improve predictions of terrestrial water and carbon cycles.
 
-My research addresses these challenges by:
-- Quantifying model uncertainty using perturbed parameter ensemble experiments
-- Evaluating process behavior with NEON flux tower observations
-- Applying machine learning diagnostics to identify structural model biases
-- Refining parameterizations to improve coupled water–carbon cycle predictions
-- Studying salinity dynamics in tidal freshwater forested wetlands, ecosystems increasingly threatened by sea-level rise
+I study how forests exchange water and carbon with the atmosphere, how model uncertainty affects those predictions, and how environmental change is reshaping coastal wetlands. I also develop environmental data-science tutorials and tools for research and teaching.
 
-## Methods & Approach
-I work at the intersection of process-based modeling and data-driven analysis.
-Land surface models provide mechanistic understanding, while observational data and machine learning reveal inconsistencies and emergent behavior that models alone may miss. By combining these approaches, I aim to reduce uncertainty and improve the physical realism of ecosystem simulations.
-
-My research primarily uses:
-- Land surface models (e.g. Community Land Model - CLM)
-- NEON observational datasets
-- Machine learning emulators and diagnostics
-- Ensemble-based uncertainty analysis
-
-## Background
-I hold an MSc in Water Engineering from the Pan African University Institute for Water and Energy Sciences (PAUWES), where I specialized in hydrology, climate science, and natural resource management. I also earned an MSc in Natural Resources from Auburn University and a BSc in Earth Science from Maseno University.
-
-In addition to academic research, I have industry experience in hydrological modeling, groundwater exploration, hydrogeological field surveys, oil spill assessment, and geotechnical investigations. This experience strengthens my ability to connect theoretical modeling with real-world water resource challenges.
-
-## Research Vision
-My long-term goal is to contribute to the development of next-generation ecosystem and land surface models that integrate mechanistic understanding with observational constraints and data-driven inference.
-I aim to produce modeling tools that better inform climate adaptation, ecosystem management, and sustainable land-use decisions under changing environmental conditions.
+Explore my [research]({{ '/research/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), and [presentations]({{ '/talks/' | relative_url }}), or view my [curriculum vitae]({{ '/cv/' | relative_url }}).

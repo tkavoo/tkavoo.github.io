@@ -9,8 +9,8 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Downloads"
+  - title: "CV"
     url: /cv/
 
   - title: "Tutorials"
-    url: /neon/
+    url: https://thecwslab.auburn.edu/tutorials/
