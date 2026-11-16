@@ -1,31 +1,118 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<html lang="{{ site.locale | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | escape }}">
+  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/atom+xml" href="{{ '/feed.xml' | relative_url }}" title="{{ site.title }} feed">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav aria-label="Main navigation">
+        <ul class="site-nav">
+          {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a></li>
+          {% else %}
+          <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
     </div>
+  </header>
+  <main id="main" class="site-main{% if page.url == '/' %} site-main--home{% endif %}">
+    {% if page.url == '/' %}
+    <section class="home-carousel" aria-label="Profile photographs">
+      <div class="home-carousel__track" id="home-carousel-track" tabindex="0" aria-label="Profile photographs; use the previous and next buttons or scroll horizontally">
+        <figure class="home-carousel__slide">
+          <img src="{{ '/images/kavoo_main.jpg' | relative_url }}" alt="Fieldwork data collection">
+          <figcaption>Fieldwork</figcaption>
+        </figure>
+        <figure class="home-carousel__slide">
+          <img src="{{ '/images/IMG_6759.jpg' | relative_url }}" alt="Thomas Kavoo presenting at a conference podium">
+          <figcaption>Conference</figcaption>
+        </figure>
+        <figure class="home-carousel__slide">
+          <img src="{{ '/images/IMG_8496.jpg' | relative_url }}" alt="Portrait of Thomas Kavoo">
+          <figcaption>Drilling Supervision</figcaption>
+        </figure>
+      </div>
+      <div class="home-carousel__controls" aria-label="Carousel controls">
+        <button class="carousel-button" type="button" data-carousel-step="-1" aria-label="Previous photograph">←</button>
+        <div class="home-carousel__pagination" aria-label="Choose a photograph">
+          <button type="button" data-carousel-slide="0" aria-label="Show fieldwork photograph" aria-current="true"></button>
+          <button type="button" data-carousel-slide="1" aria-label="Show presentation photograph"></button>
+          <button type="button" data-carousel-slide="2" aria-label="Show portrait photograph"></button>
+        </div>
+        <button class="carousel-button" type="button" data-carousel-step="1" aria-label="Next photograph">→</button>
+      </div>
+    </section>
+    <div class="home-intro">
+      <div class="home-intro__content">{{ content }}</div>
+    </div>
+    {% else %}
+      {% if page.title %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+      {{ content }}
+    {% endif %}
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</span>
+      <span class="site-footer__links">
+        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        <a href="https://www.linkedin.com/in/thomas-kavoo">LinkedIn</a>
+      </span>
+    </div>
+  </footer>
+  {% if page.url == '/' %}
+  <script>
+    (() => {
+      const track = document.querySelector("#home-carousel-track");
+      const slides = [...track.querySelectorAll(".home-carousel__slide")];
+      const indicators = [...document.querySelectorAll("[data-carousel-slide]")];
+      let activeIndex = 0;
+      let scrollFrame = 0;
 
-    {% include scripts.html %}
+      const showSlide = (index) => {
+        activeIndex = (index + slides.length) % slides.length;
+        track.scrollTo({
+          left: slides[activeIndex].offsetLeft - track.offsetLeft,
+          behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"
+        });
+        updateIndicators();
+      };
 
-  </body>
+      const updateIndicators = () => {
+        activeIndex = Math.round(track.scrollLeft / track.clientWidth);
+        indicators.forEach((indicator, index) => {
+          if (index === activeIndex) {
+            indicator.setAttribute("aria-current", "true");
+          } else {
+            indicator.removeAttribute("aria-current");
+          }
+        });
+      };
+
+      document.querySelectorAll("[data-carousel-step]").forEach((button) => {
+        button.addEventListener("click", () => showSlide(activeIndex + Number(button.dataset.carouselStep)));
+      });
+      indicators.forEach((indicator) => {
+        indicator.addEventListener("click", () => showSlide(Number(indicator.dataset.carouselSlide)));
+      });
+      track.addEventListener("scroll", () => {
+        cancelAnimationFrame(scrollFrame);
+        scrollFrame = requestAnimationFrame(updateIndicators);
+      }, { passive: true });
+    })();
+  </script>
+  {% endif %}
+</body>
 </html>
