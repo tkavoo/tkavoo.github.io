@@ -15,7 +15,8 @@ Earth system scientist and hydrologist specializing in the representation of wat
 
 ## Experience
 
-**Graduate Research Assistant**, College of Forestry, Wildlife and Environment, Auburn University — 2022–present
+**Graduate Research Assistant**  
+*College of Forestry, Wildlife and Environment, Auburn University* · 2022–present
 
 - Improved point-scale CLM5 simulations at three NEON flux towers, reducing GPP overestimation by 30% and ET underestimation by 10%.
 - Reconstructed Mobile-Tensaw Delta salinity dynamics using machine learning to investigate environmental thresholds, vegetation responses, and coastal wetland vulnerability.
@@ -23,7 +24,8 @@ Earth system scientist and hydrologist specializing in the representation of wat
 - Engineered dependency-managed HPC workflows on NCAR Derecho using PBS scheduling, running up to 32 independent CLM simulations concurrently on a single 128-core node and supporting 14,000 site-parameter combinations in approximately the wall-clock time of a standalone simulation.
 - Developed and shared seven environmental data science tutorials and interactive tools for public use (thecwslab.auburn.edu/tutorials/), also used in GSEI 7200, GSEI 5360, and research proposal development.
 
-**Hydrogeologist, Hydrologist, and Projects Manager**, Georama Engineering Services Ltd., Nairobi, Kenya — 2016–2017; 2019–2021
+**Hydrogeologist, Hydrologist, and Projects Manager**  
+*Georama Engineering Services Ltd., Nairobi, Kenya* · 2016–2017; 2019–2021
 
 - Managed technical investigations from fieldwork through subsurface interpretation and reporting for a diverse client base including schools, hospitals, communities, agricultural firms, and private and industrial clients, delivering findings and recommendations for water-resource and environmental feasibility decisions.
 - Performed geophysical surveys for 100+ borehole projects in Kenya and Tanzania; selected drilling locations and depths, with groundwater encountered in over 90% of drilled boreholes; supervised drilling, development, and pumping tests for five boreholes.
@@ -33,21 +35,34 @@ Earth system scientist and hydrologist specializing in the representation of wat
 
 ## Education
 
-- **Ph.D. in Earth System Science**, Auburn University — expected August 2027.
-- **M.Sc. in Natural Resources**, Auburn University — 2023.
-- **M.Sc. in Water Engineering**, University Abou Bekr Belkaid / Pan African University Institute for Water and Energy Sciences — 2019.
-- **B.Sc. in Earth Science with Information Technology**, Maseno University — 2015.
+**Ph.D. in Earth System Science**  
+*Auburn University* | Expected August 2027
+
+**M.Sc. in Natural Resources**  
+*Auburn University* | 2023
+
+**M.Sc. in Water Engineering**  
+*University Abou Bekr Belkaid / Pan African University Institute for Water and Energy Sciences* · 2019
+
+**B.Sc. in Earth Science with Information Technology**  
+*Maseno University* | 2015
 
 ## Technical skills
 
-- **Languages**: Python, R, NCL, LaTeX
-- **Software and Tools**: CLM, CESM, SWAT+, QGIS, ArcGIS Pro, Google Earth Engine, SCS-CN, Adobe Illustrator and Photoshop, Microsoft Office
-- **Operating Systems and Platforms**: Linux, HPC, Docker, Windows
-- **Field and Environmental**: Electrical-resistivity imaging, Geophysical surveys, Groundwater exploration, Pumping tests, Technical reporting
+**Languages**: Python, R, NCL, LaTeX
+
+**Software and Tools**: CLM, CESM, SWAT+, QGIS, ArcGIS Pro, Google Earth Engine, SCS-CN, Adobe Illustrator and Photoshop, Microsoft Office
+
+**Operating Systems and Platforms**: Linux, HPC, Docker, Windows
+
+**Field and Environmental**: Electrical-resistivity imaging, Geophysical surveys, Groundwater exploration, Pumping tests, Technical reporting
 
 ## Professional Memberships
 
-- **2023–Present** | American Water Resources Association (AWRA), Alabama Section
-- **2023–Present** | American Geophysical Union (AGU)
-- **2022–Present** | International Association of Hydrological Sciences (IAHS)
-- **2019–Present** | International Association of Hydrogeologists (IAH)
+*2023–Present* | American Water Resources Association (AWRA), Alabama Section
+
+*2023–Present* | American Geophysical Union (AGU)
+
+*2022–Present* | International Association of Hydrological Sciences (IAHS)
+
+*2019–Present* | International Association of Hydrogeologists (IAH)
