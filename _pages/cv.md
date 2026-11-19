@@ -6,8 +6,8 @@ redirect_from:
   - /resume
 ---
 
-[**Full academic CV (PDF)**]({{ '/files/Thomas-Kavoo-CV.pdf' | relative_url }}) ·
-[**Industry resume (PDF)**]({{ '/files/Resume_Thomas_Kavoo_Academic_2026-11.pdf' | relative_url }})
+[**Full CV (PDF)**]({{ '/files/CV_Thomas_Kavoo_2026-11.pdf' | relative_url }}) ·
+[**Resume (PDF)**]({{ '/files/Resume_Thomas_Kavoo_Academic_2026-11.pdf' | relative_url }})
 
 ## Profile
 
